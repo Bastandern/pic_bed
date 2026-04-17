@@ -1,13 +1,3 @@
----
-title: Obsidian外观定制
-tags:
-    - Tools
-categories: tools
-cover: https://cdn.jsdelivr.net/gh/Bastandern/pic_bed@main/img/obsidian/obsidian.png
-date: 2025-11-15 17:48
-top_img: https://cdn.jsdelivr.net/gh/Bastandern/pic_bed@main/img/obsidian/obsidian.png
-copyright_author: Bastandern
----
 
 
 
