@@ -1,0 +1,32 @@
+/* 整体等比例缩小日历面板的内容 */
+.workspace-leaf-content[data-type="calendar"] #calendar-container {
+    zoom: 0.80; /* 0.85 表示缩小到原来的 85%，你可以根据感觉改成 0.8 或 0.9 */
+}
+
+/* 1. 缩小左侧的月份和年份字体 */
+.workspace-leaf-content[data-type="calendar"] #calendar-container .nav .title {
+    font-size: 1.2em !important; /* 如果觉得还是大，可以改成 1.0em 或者 16px */
+    line-height: 1.2 !important;
+}
+
+/* 2. 缩小右侧的“今天”和左右箭头 */
+.workspace-leaf-content[data-type="calendar"] #calendar-container .nav .right-nav {
+    font-size: 0.9em !important; 
+}
+
+/* 3. 压缩头部的上下间距，给下面的日历主体腾出空间 */
+.workspace-leaf-content[data-type="calendar"] #calendar-container .nav {
+    margin-bottom: 8px !important;
+    padding-top: 0px !important;
+}
+
+/* 1. 去掉父级容器的顶部内边距 */
+.workspace-leaf-content[data-type="calendar"] .view-content {
+    padding-top: 0px !important;
+}
+
+/* 2. 去掉日历核心容器的顶部外边距和内边距 */
+.workspace-leaf-content[data-type="calendar"] #calendar-container {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}

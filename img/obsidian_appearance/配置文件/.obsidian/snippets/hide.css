@@ -1,0 +1,71 @@
+/* 新建标签页按钮隐藏 */
+.workspace-tab-header-new-tab {
+    display: none !important;
+}
+
+/* 新建标签页旁边的设置列表隐藏 */
+.workspace-tab-header-tab-list {
+    display: none !important;
+}
+
+/* 删掉中间上方的两个图标之后，把折叠右侧侧边栏按钮保持在右侧 */
+.sidebar-toggle-button.mod-right {
+    margin-left: auto !important;
+    order: 99 !important; 
+}
+
+/* 移除大纲顶部的工具栏 */
+.workspace-leaf-content[data-type="outline"] .nav-header {
+    display: none !important;
+}
+
+/* 精准隐藏文件树（file-explorer）里的指定按钮 */
+
+/* 1. 隐藏“排序”按钮 */
+.workspace-leaf-content[data-type="file-explorer"] div[aria-label="排序"] {
+    display: none !important;
+}
+
+/* 2. 隐藏“全部折叠”按钮 */
+.workspace-leaf-content[data-type="file-explorer"] div[aria-label="全部折叠"] {
+    display: none !important;
+}
+
+.workspace-leaf-content[data-type="file-explorer"] div[aria-label="全部展开"] {
+    display: none !important;
+}
+
+/* 3. 隐藏“Filter items”按钮 */
+.workspace-leaf-content[data-type="file-explorer"] div[aria-label="Filter items"] {
+    display: none !important;
+}
+
+/* 隐藏反向链接（入链）面板的整个工具栏 */
+.workspace-leaf-content[data-type="backlink"] .nav-header {
+    display: none !important;
+}
+
+/* 隐藏标签面板的整个工具栏 */
+.workspace-leaf-content[data-type="tag"] .nav-header {
+    display: none !important;
+}
+
+/* 隐藏 Git 侧边栏中不需要的按钮 */
+.nav-buttons-container #backup-btn,  /* 隐藏 Commit-and-sync (向上圆圈箭头) */
+.nav-buttons-container #unstage-all, /* 隐藏 Unstage all (减号) */
+.nav-buttons-container #pull,        /* 隐藏 Pull (向下箭头) */
+.nav-buttons-container #stage-all {  /* 隐藏 Stage all (加号) */
+    display: none !important;
+}
+
+/* 隐藏工具栏中的分割线和折叠箭头 */
+.workspace-ribbon.mod-left .side-dock-ribbon-action.separator,
+.workspace-ribbon.mod-left .side-dock-ribbon-action.is-collapsed {
+    display: none !important;
+}
+
+/* 调整编辑模式和阅读模式的正文行高 */
+.markdown-source-view.mod-cm6 .cm-line, 
+.markdown-rendered {
+  line-height: 1.8 !important; /* 数字越大间距越大，建议 1.5 到 2.0 之间 */
+}

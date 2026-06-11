@@ -1,0 +1,16 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "calendar",
+    "hide"
+  ],
+  "theme": "obsidian",
+  "interfaceFontFamily": "Arial",
+  "showRibbon": false,
+  "showViewHeader": true,
+  "baseFontSizeAction": true,
+  "baseFontSize": 15,
+  "accentColor": "#1157a0",
+  "textFontFamily": ""
+}
