@@ -1,13 +1,5 @@
----
-title: Obsidian Git备份
-tags:
-    - Tools
-categories: tools
-cover: https://cdn.jsdelivr.net/gh/Bastandern/pic_bed@main/img/obsidian_git/cover.png
-date: 2026-05-03 11:03
-top_img: https://cdn.jsdelivr.net/gh/Bastandern/pic_bed@main/img/obsidian_git/cover.png
-copyright_author: Bastandern
----
+对应b站视频：
+https://www.bilibili.com/video/BV1B3RcBKEFx
 
 # 附件分离
 
